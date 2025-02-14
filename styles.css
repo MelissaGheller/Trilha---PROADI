@@ -1,0 +1,204 @@
+/* GERAL */
+  body {
+    font-family: "Thasadith", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:linear-gradient( #0660a9,#78c0db); 
+  }
+  
+  #tituloJOGO {
+    color: #78c0db; 
+    font-family: "Oregano", serif;
+    text-align: center;
+    font-size: 40px;
+    width: 70%;
+    margin: 50px auto 20px;
+  }
+
+/* GERAL FIM */
+
+/* Casas */
+  .trilha {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(5, 60px);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #000000; 
+  }
+  
+  .casa {
+    width: 50px;
+    height: 40px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .casa:hover {
+    transform: scale(1.1);
+    background-color: #4f5a68; 
+    
+  }
+  
+  .imgCasa{
+    width: 80%;
+  }
+
+  .gestao {
+    background-color: #4f99b3; 
+  }
+  
+  .educacao {
+    background-color: #7167a8; 
+  }
+  
+  .pesquisa {
+    background-color: #80c3de; 
+  }
+  
+  .saudeDigital {
+    background-color: #95bc4f; 
+  }
+  
+  .casaVazia {
+    background-color: transparent; 
+    cursor: default;
+  }
+
+  
+  .casaVazia:hover {
+    background-color: transparent; 
+  }
+  
+  .casinha {
+    background-color: #79c1dc; 
+    color: #000000;
+  }
+  
+  .casinhaPergunta {
+    font-size: 40px;
+  }  
+
+/* Casas FIM */
+
+/* Carta geral */
+  .carta {
+    position: fixed;
+    padding: 15px 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border: solid 7px #ffffff;
+    background-color: white; 
+    box-shadow: 5px 4px 8px #5e5e5e; 
+    border-radius: 10px;
+    flex-direction:column;
+    z-index: 1000;
+    text-align: center;
+    display: none;
+    
+  }
+
+  
+  .carta h2 {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  
+  .carta p {
+    font-size: 12px;
+  }
+  
+  .carta button {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0); 
+    border: solid 2px #7167a8;
+    color: #7167a8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+  }
+  
+  .carta button:hover {
+    background-color: #7167a8; 
+    color: #ffffff;
+  }
+
+  
+  #botaofechar {
+    background-color: transparent;
+    border: none;
+    color: #5f9dca;
+    width: 200px;
+    height: 30px;
+    padding: 0px;
+    position:absolute;
+    bottom: 1px;
+    transform: translateX(-50%);
+  
+  }
+  
+  .carta .fechar:hover {
+    background-color: #4f5a68;
+  }
+
+/* Carta geral FIM */
+
+
+/* Carta pergunta FIM */
+
+.resultado {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Carta pergunta FIM */
+
+
+#video-frame{
+  height: 70%;
+  width:55%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  border-radius: 10px;
+  border: solid 2px #80c3de00;
+  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+
+
+#resultado{
+  font-size: 12px;
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+  color: #000000;
+  border-radius: 10px;
+
+
+}

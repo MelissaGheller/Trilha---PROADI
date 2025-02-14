@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+  /* GERAL */
+    #tituloJOGO{
+      font-size: 100px;
+      width: 1100px;
+    }
+
+  /* GERAL FIM */
+
+  /* Casas */
+    .trilha{
+      grid-template-columns: repeat(5, 270px);
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+    .casa{
+      width: 260px;
+      height: 250px;
+      font-size: 40px;
+      margin: 0.5px;
+    }
+
+  /* Casas FIM */
+
+  /* Carta todos */
+
+    .carta{
+      width: 90%;
+      height: 90%;
+      text-align: center;    
+    }
+    .carta h2 {
+      font-size: 60px;
+      text-align: center;
+      margin: 20px;
+    }
+
+    #conteudo {
+      font-size: 40px;
+      width: 90%;
+      margin: 0px auto 20px;
+      text-align: center;
+    }
+
+    .carta #botaofechar {
+      position: absolute;
+      bottom: 0px; 
+      transform: translateX(-50%); 
+      width: 100%;
+      font-size: 20px;
+    }
+
+
+  /* Carta todos FIM */
+  
+
+  /* Carta pergunta */
+    .carta button {
+      width: 700px;
+      font-size: 60px;  
+    }
+    #resultado {
+      font-size: 30px;
+      margin: 20px;
+      text-align: center;
+    }
+  /* Carta pergunta FIM */
+
+
+
+
+  
+  
+  
+
+
+
+  
+  
+
+
+
+}
