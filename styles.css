@@ -109,7 +109,7 @@
     width: 80%;
     height: 80%;
     border: solid 7px #ffffff;
-    background-color: white; 
+    background-color: #ffffff; 
     box-shadow: 5px 4px 8px #5e5e5e; 
     border-radius: 10px;
     flex-direction:column;
@@ -127,21 +127,24 @@
   
   .carta p {
     font-size: 12px;
+    top: 150px;
+    color: #ffffff;
   }
   
   .carta button {
     padding: 10px;
+    margin-top: 10px ;
     background-color: rgba(255, 255, 255, 0); 
-    border: solid 2px #7167a8;
-    color: #7167a8;
+    border: solid 2px #78c0db;
+    color: #78c0db;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
     width: 100px;
   }
   
-  .carta button:hover {
-    background-color: #7167a8; 
+  #botoes-pergunta button:hover {
+    background-image:linear-gradient( #0660a9,#78c0db);
     color: #ffffff;
   }
 
@@ -159,9 +162,8 @@
   
   }
   
-  .carta .fechar:hover {
-    background-color: #4f5a68;
-  }
+  
+
 
 /* Carta geral FIM */
 
@@ -193,12 +195,11 @@
 
 
 #resultado{
-  font-size: 12px;
+  font: 10px;
+  font-family: Thasadith;
   text-align: justify;
   margin: 10px;
   padding: 10px;
-  color: #000000;
-  border-radius: 10px;
-
+  color: grey;
 
 }
