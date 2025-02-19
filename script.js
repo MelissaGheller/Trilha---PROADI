@@ -154,15 +154,15 @@ const casas = [
 
   /*45*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TB PED é voltado ao tratamento da tuberculose pediátrica?", resposta: true, explicacao: "O projeto foca no diagnóstico e tratamento da tuberculose pediátrica.", tipo: "pergunta" },
 
-  /*33*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "videos/Gabriela.mp4",  tipo: "projeto"  },
+  /*33*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  },
 
   /*43*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" },
 
-  /*24*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
+  /*24*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
 
   /*46*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Trident é voltado a diagnósticos mais rápidos?", resposta: true, explicacao: "O projeto busca avanços tecnológicos para diagnósticos rápidos e precisos.", tipo: "pergunta" },
 
-  /*27*/ {  background:"img/fundo/projeto-trident.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
+  /*27*/ {  background:"img/fundo/projeto-trident.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=-OOP8JS5OGQ",  tipo: "projeto"  },
 
   /*51*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
 
