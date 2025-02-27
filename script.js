@@ -44,16 +44,15 @@ const casas = [
   /*17*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "cardiopatia congenita?", resposta: true, explicacao: "cardiopatia congenita.", tipo: "pergunta" },
 
 
-  /*18*/ { background: "img/fundo/projeto-ats-educação.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=7mvu2ebAU8E",  tipo: "projeto"},
+  /*18*/ { background:"img/fundo/projeto-preceptoria-medica.png",titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=WA6BLGVNN14",  tipo: "projeto"  },
 
   /*19*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "Diretrizes bla bla bla?", resposta: false, explicacao: "O estudo é direcionado para doenças crônicas, não agudas.", tipo: "pergunta" },
 
-  /*20*/ { background:"img/fundo/projeto-diretrizes.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=oNKqp0AP9_o",  tipo: "projeto"  },
+  /*20*/ { background: "img/fundo/projeto-ats-educação.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=7mvu2ebAU8E",  tipo: "projeto"}, 
 
   /*23*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Preceptoria Médica forma apenas profissionais de enfermagem?", resposta: false, explicacao: "O projeto é voltado à formação de novos médicos.", tipo: "pergunta" },
 
-  /*22*/ { background:"img/fundo/projeto-preceptoria-medica.png",titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=WA6BLGVNN14",  tipo: "projeto"  },
-
+  /*22*/ { background:"img/fundo/projeto-diretrizes.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=oNKqp0AP9_o",  tipo: "projeto"  }, 
 
   /*19*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto ATS Educação capacita gestores apenas para gestão financeira?", resposta: false, explicacao: "O projeto aborda avaliação de tecnologias em saúde e não se limita à gestão financeira.", tipo: "pergunta" },
 
@@ -80,15 +79,15 @@ const casas = [
   /*29*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Onco-Genomas Brasil analisa tratamentos personalizados para câncer?", resposta: true, explicacao: "O projeto estuda o perfil genético de cânceres no Brasil.", tipo: "pergunta" },
 
 
-  /*30*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  },
+  /*30*/ {background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" }, 
 
   /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Pós-Covid Brasil estuda apenas os impactos físicos da Covid-19?", resposta: false, explicacao: "O estudo avalia os impactos físicos, mentais e sociais.", tipo: "pergunta" },
 
-  /*32*/ {background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" }, 
+  /*32*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },  
   
   /*33*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
 
-  /*34*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },
+  /*34*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  }, 
 
   /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
 
@@ -124,7 +123,7 @@ const casas = [
 
   /*41*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
 
-  /*22*/ {  background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
+  /*22*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  },
 
   /*41*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
 
