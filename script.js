@@ -81,15 +81,15 @@ const casas = [
 
   /*30*/ {background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" }, 
 
-  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Pós-Covid Brasil estuda apenas os impactos físicos da Covid-19?", resposta: false, explicacao: "O estudo avalia os impactos físicos, mentais e sociais.", tipo: "pergunta" },
+  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
 
   /*32*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },  
   
-  /*33*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
+  /*33*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Pós-Covid Brasil estuda apenas os impactos físicos da Covid-19?", resposta: false, explicacao: "O estudo avalia os impactos físicos, mentais e sociais.", tipo: "pergunta" },
 
   /*34*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  }, 
 
-  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
+  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
