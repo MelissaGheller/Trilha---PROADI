@@ -115,15 +115,15 @@ const casas = [
 
   /*21*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },
 
-  /*40*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" },
+  /*40*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
   
-  /*20*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
+  /*20*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  }, 
 
 
 
-  /*41*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
+  /*41*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" }, 
 
-  /*22*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  },
+  /*22*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
 
   /*41*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
 
