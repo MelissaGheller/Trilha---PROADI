@@ -13,12 +13,12 @@ const casas = [
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
   /*5*/ { background: "img/fundo/inicio-Proadi-hmv.png" , tipo: "descricao" },
-  /*6*/ { background: "img/fundo/inicio-Escritorioo.png" , tipo: "descricao" },
+  /*6*/ { background: "img/fundo/inicio-organograma.png" , tipo: "descricao" },
   /*7*/ { background: "img/fundo/inicio-areas-projetos.png" , tipo: "descricao" },
   /*8*/ { background: "img/fundo/inicio-indicadores-graficos.png" , tipo: "descricao" },
   /*9*/ { background: "img/fundo/inicio-indicadores.png" , tipo: "descricao" },
   /*10*/{ background: "img/fundo/inicio-escritorio.png" , tipo: "descricao" },
-  /*11*/{ background: "img/fundo/inicio-apresentacao.png", tipo: "descricao" },
+  /*11*/{ background: "img/fundo/inicio-verdadeiro-falso.png", tipo: "descricao" },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
@@ -29,10 +29,9 @@ const casas = [
 
   /*13*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Gestão Hospitalar RS é focado exclusivamente na gestão financeira de hospitais?", resposta: false, explicacao: "O projeto abrange aspectos administrativos e assistenciais, não apenas financeiros.", tipo: "pergunta" },
 
-
   /*14*/ { background:"img/fundo/projeto-saude-em-nossa-maos.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KXgYEJYcOeQ",  tipo: "projeto"  },
 
-  /*15*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Saúde em nossas Mãos trata de agricultura familiar?", resposta: false, explicacao: "O projeto foca na segurança e qualidade no atendimento hospitalar.", tipo: "pergunta" },
+  /*13*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Saúde em nossas mãos?", resposta: false, explicacao: "colocar.", tipo: "pergunta" },
 
   /*16*/ { background:"img/fundo/projeto-cardiopatia-congenita.png",video:"https://www.youtube.com/watch?v=he8cB1eDdMM",  tipo: "projeto"  },
   
@@ -40,129 +39,97 @@ const casas = [
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
+
+
   
-  /*17*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "cardiopatia congenita?", resposta: true, explicacao: "cardiopatia congenita.", tipo: "pergunta"},
+  /*cardio congenita (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "cardiopatia congenita?", resposta: true, explicacao: "cardiopatia congenita.", tipo: "pergunta" },
 
+  /*Diretrizes (Projeto)*/ {background:"img/fundo/projeto-diretrizes.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=oNKqp0AP9_o",  tipo: "projeto"  },
 
-  /*18*/ { background:"img/fundo/projeto-diretrizes.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=oNKqp0AP9_o",  tipo: "projeto"}, 
+  /*Precep médica (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Preceptoria Médica forma apenas profissionais de enfermagem?", resposta: false, explicacao: "O projeto é voltado à formação de novos médicos.", tipo: "pergunta" },
 
-  /*19*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Preceptoria Médica forma apenas profissionais de enfermagem?", resposta: false, explicacao: "O projeto é voltado à formação de novos médicos.", tipo: "pergunta"},
+  /*Precep médica (projeto)*/ { background:"img/fundo/projeto-preceptoria-medica.png",titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=WA6BLGVNN14",  tipo: "projeto"  },
 
-  /*20*/ { background:"img/fundo/projeto-preceptoria-medica.png",titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=WA6BLGVNN14",  tipo: "projeto"},  
+  /*ATS (Pergunta*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto ATS Educação capacita gestores apenas para gestão financeira?", resposta: false, explicacao: "O projeto aborda avaliação de tecnologias em saúde e não se limita à gestão financeira.", tipo: "pergunta" },
 
-  /*23*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto ATS Educação capacita gestores apenas para gestão financeira?", resposta: false, explicacao: "O projeto aborda avaliação de tecnologias em saúde e não se limita à gestão financeira.", tipo: "pergunta"},
+  /*ATS (projeto)*/ { background: "img/fundo/projeto-ats-educação.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=7mvu2ebAU8E",  tipo: "projeto"},
 
-  /*22*/ { background: "img/fundo/projeto-ats-educação.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=7mvu2ebAU8E",  tipo: "projeto"}, 
-
-  /*19*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "Diretrizes bla bla bla?", resposta: false, explicacao: "O estudo é direcionado para doenças crônicas, não agudas.", tipo: "pergunta"},
+  /*Firetrizes (pergunta) */ { background:"img/fundo/ta-certo-isso.png", pergunta: "Diretrizes bla bla bla?", resposta: false, explicacao: "O estudo é direcionado para doenças crônicas, não agudas.", tipo: "pergunta" },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*22*/ { background:"img/fundo/projeto-artemis.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=X2WEOnF5mao",  tipo: "projeto"  },
+  /*Artemis (projeto)*/ {background:"img/fundo/projeto-artemis.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=X2WEOnF5mao",  tipo: "projeto"  },
 
-  /*25*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Artemis está relacionado à transformação digital na saúde?", resposta: true, explicacao: "O projeto Artemis promove transformação digital na saúde.", tipo: "pergunta" },
+  /*Artemis (pergunta*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Artemis está relacionado à transformação digital na saúde?", resposta: true, explicacao: "O projeto Artemis promove transformação digital na saúde.", tipo: "pergunta" },
+
+  /*Estudo cuidar (projeto)*/ {background:"img/fundo/projeto-estudo-cuidar.png", titulo: "", conteudo: "",  tipo: "projeto"  },
+
+  /*Estudo cuidar (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O Estudo CuidAR é voltado para doenças respiratórias agudas?", resposta: false, explicacao: "O estudo é direcionado para doenças crônicas, não agudas.", tipo: "pergunta" },
+
+  /*Onco-genomas (projeto)*/ {background:"img/fundo/projeto-onco-genomas.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=wOkTcLAxYPQ",  tipo: "projeto"  },
+
+ 
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+
+  /*onco-genomas (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Onco-Genomas Brasil analisa tratamentos personalizados para câncer?", resposta: true, explicacao: "O projeto estuda o perfil genético de cânceres no Brasil.", tipo: "pergunta" },
+
+  /*pos-covid (projeto)*/ { background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" },
+
+  /*physiosync (projeto)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
+
+  /*physiosync (pergunta)*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },
+
+  /*Rehab (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
+
+  /*Rehab (projeto)*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  },
+
+  /*pos covid (pergunta)*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Pós-Covid Brasil estuda apenas os impactos físicos da Covid-19?", resposta: false, explicacao: "O estudo avalia os impactos físicos, mentais e sociais.", tipo: "pergunta" },
   
-  /*22*/ { background:"img/fundo/projeto-estudo-otimo.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*27*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "Estudo otimo alterar pergunta?", resposta: true, explicacao: "O projeto Artemis promove transformação digital na saúde.", tipo: "pergunta" },
 
-  /*28*/ {background:"img/fundo/projeto-onco-genomas.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=wOkTcLAxYPQ",  tipo: "projeto"  },
+  /*Resilient (projeto)*/ { background:"img/fundo/projeto-resilient.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
+
+  /*Resilient (projeto)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "Resilient?", resposta: true, explicacao: "resilente blablabla.", tipo: "pergunta" },
+
+  /*TB-Ped (projeto)*/ {background:"img/fundo/projeto-tb-ped.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
+
+  /*TB-Ped (Pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TB PED é voltado ao tratamento da tuberculose pediátrica?", resposta: true, explicacao: "O projeto foca no diagnóstico e tratamento da tuberculose pediátrica.", tipo: "pergunta" },
+
+  /*Trident (Projeto)*/ {  background:"img/fundo/projeto-trident.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=-OOP8JS5OGQ",  tipo: "projeto"  },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*29*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Onco-Genomas Brasil analisa tratamentos personalizados para câncer?", resposta: true, explicacao: "O projeto estuda o perfil genético de cânceres no Brasil.", tipo: "pergunta" },
-
-
-  /*30*/ {background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" }, 
-
-  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
-
-  /*32*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },  
   
-  /*33*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
+  /*Trident (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Trident é voltado a diagnósticos mais rápidos?", resposta: true, explicacao: "O projeto busca avanços tecnológicos para diagnósticos rápidos e precisos.", tipo: "pergunta" },
 
-  /*34*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  }, 
+   /*Projetos fim*/{ background: "img/fundo/fim-qr-code.png", tipo: "descricao" },
 
-  /*31*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Pós-Covid Brasil estuda apenas os impactos físicos da Covid-19?", resposta: false, explicacao: "O estudo avalia os impactos físicos, mentais e sociais.", tipo: "pergunta" }, 
+  /*tele-nordeste (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
+
+
+  /*tele-nordeste (projeto)*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  },
+
   
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-
-  /*19*/ {background:"img/fundo/projeto-resilient.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
-
-  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O Projeto Resilient-TNK alterar pergunta?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
-
-  /*19*/{background:"img/fundo/projeto-tb-ped.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
-  
-  /*31*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TB PED é voltado ao tratamento da tuberculose pediátrica?", resposta: true, explicacao: "O projeto foca no diagnóstico e tratamento da tuberculose pediátrica.", tipo: "pergunta" },
-
-  /*19*/ {background:"img/fundo/projeto-trident.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=-OOP8JS5OGQ",  tipo: "projeto"  },
-
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-
-  /*39*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Trident é voltado a diagnósticos mais rápidos?", resposta: true, explicacao: "O projeto busca avanços tecnológicos para diagnósticos rápidos e precisos.", tipo: "pergunta" },
-
-  /*21*/ {background:"img/fundo/projeto-physiosync.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=Atw5AdfzTm8",  tipo: "projeto"  },
-
-  /*40*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
-  
-  /*20*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  }, 
+  /*Vigia-Sus (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" },
 
 
-
-  /*41*/ {background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" }, 
-
-  /*22*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
-
-  /*41*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "colocar pergunta sobre o Projeto PhysioSync-HF Follow-UP?", resposta: true, explicacao: "colocar resposta Projeto PhysioSync-HF Follow-UP.", tipo: "pergunta" },
-
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
+  /*Vigia-Sus (projeto)*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
 
 
-  /*28*/ {background:"img/fundo/projeto-rehab-vm.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KUPtzfuNgH0",  tipo: "projeto"  },
-
-  /*47*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Rehab-VM Brasil é voltado à reabilitação de pacientes com doenças respiratórias leves?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
-
-  /*23*/ { background:"img/fundo/projeto-resilient.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
-
-  /*47*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O Projeto Resilient-TNK alterar pergunta?", resposta: false, explicacao: "O projeto foca na reabilitação de pacientes em ventilação mecânica prolongada.", tipo: "pergunta" },
-
-
-  /*26*/ {background:"img/fundo/projeto-tb-ped.png", titulo: "", conteudo: "", video: "/img/videoteste.mp4",  tipo: "projeto"  },
-
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-  /*V*/ { titulo: "", conteudo: "", tipo: "" },
-
-
-  /*45*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TB PED é voltado ao tratamento da tuberculose pediátrica?", resposta: true, explicacao: "O projeto foca no diagnóstico e tratamento da tuberculose pediátrica.", tipo: "pergunta" },
-
-  /*33*/ { background:"img/fundo/projeto-telenordeste.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=CS-8HO-Ci1I",  tipo: "projeto"  },
-
-  /*43*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto VigiaSUS trata de agricultura sustentável?", resposta: false, explicacao: "O projeto é focado na vigilância em saúde e monitoramento de doenças emergentes.", tipo: "pergunta" },
-
-  /*24*/ { background:"img/fundo/projeto-vigiasus.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=ZU4Z985I9iU",  tipo: "projeto"  },
-
-  /*46*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Trident é voltado a diagnósticos mais rápidos?", resposta: true, explicacao: "O projeto busca avanços tecnológicos para diagnósticos rápidos e precisos.", tipo: "pergunta" },
-
-  /*27*/ {  background:"img/fundo/projeto-trident.png", titulo: "", conteudo: "", video: "https://www.youtube.com/watch?v=-OOP8JS5OGQ",  tipo: "projeto"  },
-
-  /*51*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
+  /*Projetos fim*/{ background: "img/fundo/fim-agradecimento.png", tipo: "descricao" },
 
 ];
 
@@ -215,6 +182,7 @@ document.querySelectorAll('.casa').forEach((casa, index) => {
 
     } else if (dadosCasa.tipo === 'pergunta') {
       conteudoCarta.textContent = dadosCasa.pergunta;
+      conteudoCarta.style.marginTop = "150px";
       botoesPergunta.style.display = 'block';
 
       window.responder = (respostaUsuario) => {
