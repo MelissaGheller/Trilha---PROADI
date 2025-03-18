@@ -31,7 +31,7 @@ const casas = [
 
   /*14*/ { background:"img/fundo/projeto-saude-em-nossa-maos.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=KXgYEJYcOeQ",  tipo: "projeto"  },
 
-  /*13*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Saúde em nossas mãos?", resposta: false, explicacao: "colocar.", tipo: "pergunta" },
+  /*13*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O foco do projeto é a prevenção de infecções em enfermarias pediátricas?", resposta: false, explicacao: "O foco do projeto é a prevenção de infecções em UTIs, não em enfermarias pediátricas.", tipo: "pergunta" },
 
   /*16*/ { background:"img/fundo/projeto-cardiopatia-congenita.png",video:"https://www.youtube.com/watch?v=he8cB1eDdMM",  tipo: "projeto"  },
   
@@ -42,11 +42,11 @@ const casas = [
 
 
   
-  /*cardio congenita (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "cardiopatia congenita?", resposta: true, explicacao: "cardiopatia congenita.", tipo: "pergunta" },
+  /*cardio congenita (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto inclui cursos de capacitação, oficinas e materiais educativos para profissionais de saúde e usuários do SUS?", resposta: true, explicacao: "O projeto PROADI-SUS oferece capacitação, oficinas e materiais educativos para profissionais de saúde e usuários do SUS, visando aprimorar o diagnóstico e o tratamento das cardiopatias congênitas..", tipo: "pergunta" },
 
   /*Diretrizes (Projeto)*/ {background:"img/fundo/projeto-diretrizes.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=oNKqp0AP9_o",  tipo: "projeto"  },
 
-  /*Precep médica (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Preceptoria Médica forma apenas profissionais de enfermagem?", resposta: false, explicacao: "O projeto é voltado à formação de novos médicos.", tipo: "pergunta" },
+  /*Precep médica (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "Os preceptores não estão envolvidos na formação de residentes?", resposta: false, explicacao: "Os preceptores são médicos e médicas envolvidos na formação de residentes.", tipo: "pergunta" },
 
   /*Precep médica (projeto)*/ { background:"img/fundo/projeto-preceptoria-medica.png",titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=WA6BLGVNN14",  tipo: "projeto"  },
 
@@ -54,7 +54,7 @@ const casas = [
 
   /*ATS (projeto)*/ { background: "img/fundo/projeto-ats-educação.png", titulo: "", conteudo: "", video:"https://www.youtube.com/watch?v=7mvu2ebAU8E",  tipo: "projeto"},
 
-  /*Firetrizes (pergunta) */ { background:"img/fundo/ta-certo-isso.png", pergunta: "Diretrizes bla bla bla?", resposta: false, explicacao: "O estudo é direcionado para doenças crônicas, não agudas.", tipo: "pergunta" },
+  /*Diretrizes (pergunta) */ { background:"img/fundo/ta-certo-isso.png", pergunta: "O principal objetivo do projeto Diretrizes é criar hospitais para o Ministério da Saúde?", resposta: false, explicacao: "O principal objetivo do projeto Diretrizes não é criar hospitais, e sim apoiar o desenvolvimento de diretrizes clínico-assistenciais para o Ministério da Saúde.", tipo: "pergunta" },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
@@ -77,7 +77,7 @@ const casas = [
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*onco-genomas (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Onco-Genomas Brasil analisa tratamentos personalizados para câncer?", resposta: true, explicacao: "O projeto estuda o perfil genético de cânceres no Brasil.", tipo: "pergunta" },
+  /*onco-genomas (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Oncogenomas Brasil não busca prevenir todos os tipos de câncer através da vacinação.?", resposta: true, explicacao: "O projeto Onco-Genomas Brasil não busca prevenir todos os tipos de câncer por meio da vacinação. Seu objetivo é caracterizar o perfil molecular dos cânceres de mama e próstata na população brasileira, visando aprimorar o diagnóstico e o tratamento dessas neoplasias..", tipo: "pergunta" },
 
   /*pos-covid (projeto)*/ { background:"img/fundo/projeto-pos-covid.png", titulo: "", conteudo: "",  video: "/img/videoteste.mp4",  tipo: "projeto" },
 
