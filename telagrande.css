@@ -42,7 +42,8 @@
       
       font-size: 40px;
       width: 90%;
-      margin: 10% auto 20px;
+
+      margin: 250px auto 20px;
       text-align: center;
       
     }
@@ -60,7 +61,7 @@
     .carta button {
       width: 600px;
       font-size: 60px; 
-      margin-top: 150px; 
+      margin: 150px auto 0px; 
     }
     #resultado {
       font-size: 30px;

@@ -12,7 +12,7 @@ const casas = [
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*5*/ { background: "img/fundo/inicio-Proadi-hmv.png" , tipo: "descricao" },
+  /*5*/ { background: "img/fundo/inicio-proadi-hmv.png" , tipo: "descricao" },
   /*6*/ { background: "img/fundo/inicio-organograma.png" , tipo: "descricao" },
   /*7*/ { background: "img/fundo/inicio-areas-projetos.png" , tipo: "descricao" },
   /*8*/ { background: "img/fundo/inicio-indicadores-graficos.png" , tipo: "descricao" },
@@ -182,7 +182,6 @@ document.querySelectorAll('.casa').forEach((casa, index) => {
 
     } else if (dadosCasa.tipo === 'pergunta') {
       conteudoCarta.textContent = dadosCasa.pergunta;
-      conteudoCarta.style.marginTop = "150px";
       botoesPergunta.style.display = 'block';
 
       window.responder = (respostaUsuario) => {
