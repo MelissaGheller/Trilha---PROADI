@@ -38,14 +38,11 @@
       margin: 20px;
     }
 
-    #conteudo  {
-      
-      font-size: 40px;
+    #conteudo {
+      font-size: 150px;
       width: 90%;
-
-      margin: 250px auto 20px;
+      margin: 700px auto 20px;
       text-align: center;
-      
     }
 
     .carta #botaofechar {
@@ -59,12 +56,13 @@
 
   /* Carta pergunta */
     .carta button {
-      width: 600px;
-      font-size: 60px; 
-      margin: 150px auto 0px; 
+      width: 900px;
+      font-size: 150px;
+      margin: 350px auto 0px;
     }
+
     #resultado {
-      font-size: 30px;
+      font-size: 150px;
       text-align: center;
     }
    
