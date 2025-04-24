@@ -1,7 +1,7 @@
 const casas = [
 
   /*0*/ { background: "img/fundo/inicio-capa.png", tipo: "descricao"}, 
-  /*1*/ { background: "img/fundo/inicio-integrantes.png" , tipo: "descricao" },
+  /*1*/ { background: "img/fundo/inicio-integrantes.jpg" , tipo: "descricao" },
 
   /*2*/ { background: "img/fundo/inicio-parcerias.png" , tipo: "descricao" },
   /*3*/ { background: "img/fundo/inicio-proadi.png" , tipo: "descricao" },
@@ -12,12 +12,12 @@ const casas = [
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
 
-  /*5*/ { background: "img/fundo/inicio-proadi-hmv.png" , tipo: "descricao" },
-  /*6*/ { background: "img/fundo/inicio-organograma.png" , tipo: "descricao" },
-  /*7*/ { background: "img/fundo/inicio-areas-projetos.png" , tipo: "descricao" },
-  /*8*/ { background: "img/fundo/inicio-indicadores-graficos.png" , tipo: "descricao" },
-  /*9*/ { background: "img/fundo/inicio-indicadores.png" , tipo: "descricao" },
-  /*10*/{ background: "img/fundo/inicio-escritorio.png" , tipo: "descricao" },
+  /*5*/ { background: "img/fundo/inicio-proadi-hmv.jpg" , tipo: "descricao" },
+  /*6*/ { background: "img/fundo/inicio-organograma.jpg" , tipo: "descricao" },
+  /*7*/ { background: "img/fundo/inicio-areas-projetos.jpg" , tipo: "descricao" },
+  /*8*/ { background: "img/fundo/inicio-indicadores-graficos.jpg" , tipo: "descricao" },
+  /*9*/ { background: "img/fundo/inicio-indicadores.jpg" , tipo: "descricao" },
+  /*10*/{ background: "img/fundo/inicio-escritorio.jpg" , tipo: "descricao" },
   /*11*/{ background: "img/fundo/inicio-verdadeiro-falso.png", tipo: "descricao" },
 
   /*V*/ { titulo: "", conteudo: "", tipo: "" },
@@ -115,7 +115,7 @@ const casas = [
   
   /*Trident (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto Trident é voltado a diagnósticos mais rápidos?", resposta: true, explicacao: "O projeto busca avanços tecnológicos para diagnósticos rápidos e precisos.", tipo: "pergunta" },
 
-   /*Projetos fim*/{ background: "img/fundo/fim-qr-code.png", tipo: "descricao" },
+   /*Projetos fim*/{ background: "img/fundo/fim-qr-code.jpg", tipo: "descricao" },
 
   /*tele-nordeste (pergunta)*/ { background:"img/fundo/ta-certo-isso.png", pergunta: "O projeto TeleNordeste utiliza telemedicina para ampliar o acesso à saúde?", resposta: true, explicacao: "O projeto utiliza telemedicina para expandir o acesso à saúde no Nordeste do Brasil.", tipo: "pergunta" },
 
