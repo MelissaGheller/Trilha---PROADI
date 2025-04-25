@@ -159,6 +159,10 @@
     bottom: 1px;
     transform: translateX(-50%);
   
+  
+  }
+  #botaofechar:hover{
+    color: #000000;
   }
   
   
